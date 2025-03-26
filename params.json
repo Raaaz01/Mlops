@@ -76,7 +76,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "Raaaz01",
+              "accessToken": "git@github.com:Raaaz01/Mlops.git",
+              "repository": "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"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
